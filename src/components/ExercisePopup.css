@@ -1,0 +1,23 @@
+.popup-container {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    align-items: center;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.97;
+}
+
+.minimize-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+}
+

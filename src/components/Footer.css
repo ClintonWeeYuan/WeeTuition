@@ -1,0 +1,29 @@
+.footer-container {
+    background-color:  #f1aa70f3;;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-heading {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-box {
+    display: flex;
+
+}
+
+.contact-info {
+    padding-left: 10px;
+}
+

@@ -1,0 +1,24 @@
+.video-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #e6e4e1;
+    padding: 50px 20px;
+}
+
+.video-heading {
+    font-size: 40px;
+}
+
+.divider {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.video-content {
+
+}

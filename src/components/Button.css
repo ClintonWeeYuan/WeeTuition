@@ -1,0 +1,21 @@
+.btn {
+
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 2em;
+    background-color: #ff914d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.btn:hover {
+    background-color: #f1aa70f3;
+}
+
+.btn-large {
+    width: 100px;
+    height: 50px;
+}

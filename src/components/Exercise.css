@@ -1,0 +1,26 @@
+.exercise-container {
+    background-color: #e6e4e1;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.exercise-heading {
+    font-size: 40px;
+}
+
+.divider {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.exercise-content {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}

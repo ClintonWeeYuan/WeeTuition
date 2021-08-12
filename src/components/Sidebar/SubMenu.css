@@ -1,0 +1,60 @@
+.submenu-container {
+    width: 100%;
+
+}
+
+.submenu-link {
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 30px;
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    color: black;
+
+}
+
+.submenu-link:hover {
+    padding-left: 40px;
+    background-color: #f1aa70f3;
+    color: white;
+    
+}
+
+.submenu-link-active {
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.submenu-link-active:hover {
+    background-color: #f1aa70f3;
+}
+
+.submenu-label {
+    font-size: 20px;
+}
+
+.submenu-arrow {
+
+}
+
+.sub-submenu {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.sub-submenu:hover {
+    color: white;
+}
