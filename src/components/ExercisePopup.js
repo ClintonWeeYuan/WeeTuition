@@ -10,7 +10,7 @@ function ExercisePopup(props) {
             </div>
             
             <div className='document-container'>
-            <iframe src="https://drive.google.com/file/d/1ypNOBCSeL78piBqZ2JXZMTCgPsDVF4Yv/preview" width="640" height="600" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1ypNOBCSeL78piBqZ2JXZMTCgPsDVF4Yv/preview" width="640" height="800" allow="autoplay"></iframe>
             </div>
         </div>
     )

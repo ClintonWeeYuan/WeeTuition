@@ -2,33 +2,39 @@
     position: fixed;
     top: 150px;
     display: inline-block;
-    width: 20%;
+    width: 30%;
     float: left;
     z-index: 9;
 
 }
 
+
+
+
 .sidebar-toggle {
     cursor: pointer;
     width: 50%;
     height: 70px;
-    background-color: #e1c65a;
+    background-color: #FFDF66;
+    /*background-color: #e1c65a;*/
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .sidebar-toggle-active {
     cursor: pointer;
     width: 100%;
     height: 70px;
-    background-color: #e1c65a;
+    background-color: #FFDF66;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .sidebar-nav {
@@ -36,21 +42,23 @@
     width: 100%;
     transform: translateX(-100%);
     height: 100vh;
-    background-color: #e1c65a;
+    background-color: #FFDF66;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     transition: transform 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
 }
 
 .sidebar-nav-active {
     cursor: pointer;
-    width: 100%px;
-    height: 100vh;
+    width: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    background-color: #e1c65a;
+    background-color: #FFDF66;
     transform: translateX(0px);
     margin: 0;
     top: 150px;
@@ -58,5 +66,16 @@
     align-items: flex-start;
     justify-content: flex-start;
     transition: transform 0.5s ease;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    overflow-y: auto;
 }
+
+.sidebar-nav-active::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sidebar-nav-active{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

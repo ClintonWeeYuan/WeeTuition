@@ -1,6 +1,6 @@
   
 .navbar {
-    background-color: white;
+    background-color: whitesmoke;
     height: 100px;
     padding: 0.5rem calc((100vh - 1000px) / 2);
     display: flex;
@@ -8,9 +8,9 @@
     align-items: center;
     font-size: 1.2rem;
     top: 0;
-    z-index: 9;
+    z-index: 20;
     margin: 0;
-    position: sticky;
+
   }
   
 .navbar-container {
@@ -38,6 +38,14 @@
     /*Add padding here to shrink the img*/
 }
 
+.nav-study {
+    height: 100px;
+    width: auto;
+    left: 30vw;
+
+    position: absolute;
+}
+
 .menu-icon {
     padding: 8px 16px;
     display: none;
@@ -59,15 +67,17 @@
     list-style-type: none;
 } 
 
+
+
 .nav-links {
     text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
     color: black;
     cursor: pointer;
-
 }
 
 .nav-links:hover {
-    color: #ff914d;
+    color: #ef8354;
 }
 
 
@@ -106,7 +116,7 @@
         top: 80px;
         left: 0;
         position: fixed; 
-        background-color:  #ff914d;
+        background-color:  #ef8354;
         padding: 0;
     }
 
@@ -119,7 +129,7 @@
         align-items: center;
     }
     .nav-item:hover {
-        background-color: #f1aa70f3;
+        background-color: #f09068de;
     }
 
     .nav-links {

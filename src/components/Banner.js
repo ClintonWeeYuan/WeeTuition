@@ -10,21 +10,23 @@ function Banner(props) {
             
             <Container>
                 <Row>
-                    <Col className='empty-div'>
-                         
-                    </Col>
-
-                    <Col className='banner-words'>
-                        <div className='banner-heading'>
+                    
+                    <div className='banner-section'>
+                        <Col className='banner-words'>
+                            <div className='banner-heading'>
                             {props.heading}
-                        </div>
+                            </div>
                 
-                        <div className='banner-caption'>
+                            <div className='banner-caption'>
                             {props.caption}
-                        </div>
+                            </div>
 
-                        <Button linkName='/'>GET STARTED</Button>
-                    </Col> 
+                            <Button linkName='/'>GET STARTED</Button>
+                        </Col> 
+
+                    
+                        <img className='banner-image' src={props.image}/>
+                    </div>
                 </Row>  
             </Container>
             

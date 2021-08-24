@@ -5,9 +5,10 @@
     border: none;
     cursor: pointer;
     margin-top: 2em;
-    background-color: #ff914d;
+    background-color: #ef835a;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Oxygen', sans-serif;
 
 }
 
@@ -16,6 +17,6 @@
 }
 
 .btn-large {
-    width: 100px;
+    width: 130px;
     height: 50px;
 }

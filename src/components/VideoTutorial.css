@@ -4,19 +4,28 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    background-color: #e6e4e1;
     padding: 50px 20px;
+    background-image: url('../images/oxford.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-blend-mode: multiply;
+    background-color: #2d3142d3;
 }
+
 
 .video-heading {
     font-size: 40px;
+    font-family: 'Viga', sans-serif;
+    color: white;
 }
 
-.divider {
+.video-divider {
     width: 50px;
     height: 4px;
-    background-color: black;
     margin-bottom: 40px;
+    background-color: white;
+
 }
 
 .video-content {

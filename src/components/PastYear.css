@@ -1,0 +1,28 @@
+.pastyear-container {
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.pastyear-heading {
+    font-size: 40px;
+    font-family: 'Viga', sans-serif;
+    color: #2d3142;
+}
+
+.pastyear-divider {
+    width: 50px;
+    height: 4px;
+    margin-bottom: 40px;
+    background-color: #2d3142;
+}
+
+.pastyear-content {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}

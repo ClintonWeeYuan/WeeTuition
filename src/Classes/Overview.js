@@ -2,6 +2,7 @@ import React from 'react'
 import VideoTutorial from '../components/VideoTutorial';
 import Exercise from '../components/Exercise';
 import KeyEquations from '../components/KeyEquations'
+import PastYear from '../components/PastYear';
 
 
 const PageStyle = {
@@ -16,6 +17,7 @@ function Overview() {
             <VideoTutorial></VideoTutorial>
             <KeyEquations/>
             <Exercise/>
+            <PastYear/>
         </div>
     )
 }

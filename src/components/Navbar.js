@@ -6,6 +6,7 @@ import Logo from '../images/logo.png';
 import {CgMenu} from 'react-icons/cg';
 import {FaTimes} from 'react-icons/fa';
 import { black } from 'jest-matcher-utils/node_modules/chalk';
+import studyImage from '../images/study.png'
 
 
 function Navbar() {
@@ -30,6 +31,8 @@ function Navbar() {
                 <Link to='/' className='navbar-logo'>
                     <img src={Logo} />
                 </Link>
+
+                <img className='nav-study' src={studyImage}/>
 
                 <div className='menu-icon' onClick={handleClick}>
                     {click? <FaTimes size={30}/> : <CgMenu size={30}/>}

@@ -5,14 +5,15 @@ import ReactPlayer from 'react-player';
 
 function VideoTutorial() {
     return (
-
+        
             <div className='video-container'>
+                
                 <Row className='video-heading'>
                     Video Tutorial
                 </Row>
 
                 <Row>
-                    <div className='divider'>
+                    <div className='video-divider'>
                     
                     </div>
                 </Row>
@@ -20,7 +21,7 @@ function VideoTutorial() {
                 <Row>
                     <div  className='video-content'>
                     <ReactPlayer
-                        url="https://www.youtube.com/watch?v=oPVte6aMprI"
+                        url="https://www.youtube.com/watch?v=ju4jq4EKIL0"
                     />
                     </div>
                 </Row>

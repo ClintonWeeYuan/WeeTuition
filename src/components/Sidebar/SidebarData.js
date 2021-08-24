@@ -12,26 +12,26 @@ export const SidebarData = [
     },
 
     {
-        title: '1: Algebra',
+        title: '1: Functions',
         route: 'CH1',
         path: '/ch1',
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
-                title: 'Linear Equations',
+                title: 'Into to Functions',
                 page: 'CH1S1',
                 path: '/ch1/s1'
             },
 
             {
-                title: 'Simultaneous Equations',
+                title: 'Composite Functions',
                 page: 'CH1S2',
                 path: '/ch1/s2'
             },
 
             {
-                title: 'Quadratic Equations',
+                title: 'Inverse Functions',
                 page: 'CH1S3',
                 path: '/ch1/s3'
             }

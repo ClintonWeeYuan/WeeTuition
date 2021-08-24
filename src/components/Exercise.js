@@ -1,7 +1,6 @@
 import {React, useState} from 'react'
 import './Exercise.css'
 import {Row, Col} from 'react-bootstrap';
-import { Document, Page } from 'react-pdf';
 import Button from '../components/Button';
 import ExercisePopup from './ExercisePopup'
 
@@ -24,7 +23,7 @@ function Exercise() {
             </Row>
 
             <Row>
-                <div className='divider'></div>
+                <div className='exercise-divider'></div>
             </Row>
 
             <Row>

@@ -5,7 +5,8 @@ import Button from './Button'
 
 function Section(props) {
     return (
-        <Container className='section-container' >
+        <div className='section-container' >
+            
             <Row className='section-heading'>
                 {props.heading}
             </Row>
@@ -28,7 +29,7 @@ function Section(props) {
             <Row>
                 <Button>GET STARTED</Button>
             </Row>
-        </Container>
+        </div>
     )
 }
 

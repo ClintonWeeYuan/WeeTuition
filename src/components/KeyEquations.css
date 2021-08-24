@@ -5,13 +5,16 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 50px 20px;
+
 
 }
 
 .equations-heading {
     font-size: 40px;
+    font-family: 'Viga', sans-serif;
+    color: #2d3142;
 }
 
 .divider {

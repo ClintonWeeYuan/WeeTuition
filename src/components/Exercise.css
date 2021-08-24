@@ -1,5 +1,5 @@
 .exercise-container {
-    background-color: #e6e4e1;
+    background-color: #2d3142;
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
@@ -10,13 +10,15 @@
 
 .exercise-heading {
     font-size: 40px;
+    font-family: 'Viga', sans-serif;
+    color: white;
 }
 
-.divider {
+.exercise-divider {
     width: 50px;
     height: 4px;
-    background-color: black;
     margin-bottom: 40px;
+    background-color: white;
 }
 
 .exercise-content {

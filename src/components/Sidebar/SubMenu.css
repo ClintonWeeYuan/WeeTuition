@@ -13,12 +13,12 @@
     justify-content: space-between;
     transition: all 0.5s ease;
     color: black;
-
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .submenu-link:hover {
     padding-left: 40px;
-    background-color: #f1aa70f3;
+    background-color: #ef8354;
     color: white;
     
 }
@@ -28,6 +28,7 @@
     width: 100%;
     padding: 20px 40px;
     color: white;
+    background-color: #ef8354;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -35,7 +36,7 @@
 }
 
 .submenu-link-active:hover {
-    background-color: #f1aa70f3;
+    background-color: #ef8354;
 }
 
 .submenu-label {
@@ -56,5 +57,6 @@
 }
 
 .sub-submenu:hover {
-    color: white;
+    color: #bfc0c0;
+    font-size: 17px;
 }
