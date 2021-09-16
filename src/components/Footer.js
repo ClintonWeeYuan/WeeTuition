@@ -8,8 +8,7 @@ function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-heading'>
-                <p>Wee Tuiton Centre, Copyright Reserved</p>
-                <FaCopyright/>
+                <p>Wee Academy</p>
             </div>
             
 

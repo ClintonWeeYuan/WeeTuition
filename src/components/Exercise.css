@@ -16,7 +16,7 @@
 
 .exercise-divider {
     width: 50px;
-    height: 4px;
+    height: 3px;
     margin-bottom: 40px;
     background-color: white;
 }
@@ -25,4 +25,18 @@
     display: flex;
     justify-content: space-around;
     width: 500px;
+    z-index: 8;
+}
+
+/* Phone Screen */
+
+@media only screen and (max-width: 768px) {
+    .exercise-heading {
+        font-size: 30px;
+    }
+
+    .exercise-divider {
+        width: 40px;
+        height: 2px;
+    }
 }

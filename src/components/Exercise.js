@@ -7,7 +7,7 @@ import ExercisePopup from './ExercisePopup'
 
 
 
-function Exercise() {
+function Exercise(props) {
 
     const [popup, setPopup] = useState(false);
 
@@ -28,11 +28,10 @@ function Exercise() {
 
             <Row>
                 <div  className='exercise-content'>
-                    <Button onClick={openPopup}buttonSize='btn-large'>Exercises</Button>
-                    <Button buttonSize='btn-large'>Cribs</Button>
+                    <Button onClick={openPopup} buttonSize='btn-large'>Exercises</Button>
                 </div>
             </Row>     
-            {popup && <ExercisePopup onClick={openPopup}/>}   
+            {popup && <ExercisePopup gdrive={props.exercise} onClick={openPopup}/>}   
 
             
         </div>

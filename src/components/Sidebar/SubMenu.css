@@ -13,13 +13,13 @@
     justify-content: space-between;
     transition: all 0.5s ease;
     color: black;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
 }
 
 .submenu-link:hover {
     padding-left: 40px;
-    background-color: #ef8354;
-    color: white;
+    background-color: #f8c313;
+
     
 }
 
@@ -27,8 +27,8 @@
     text-decoration: none;
     width: 100%;
     padding: 20px 40px;
-    color: white;
-    background-color: #ef8354;
+
+    background-color: #f8c313;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -36,11 +36,12 @@
 }
 
 .submenu-link-active:hover {
-    background-color: #ef8354;
+    background-color: #f8c313;;
 }
 
 .submenu-label {
     font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .submenu-arrow {

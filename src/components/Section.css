@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 10%;
-    background-color:whitesmoke;
+    background-color:#2d3142;
 }
 
 .section-heading {
     font-size: 40px;
     font-family:'Viga', sans-serif;
+    color: white;
 }
 
 .divider {
@@ -20,6 +21,7 @@
 .section-columns {
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 /*Mobile View*/
@@ -27,4 +29,8 @@
     .section-columns {
         flex-direction: column;
     }
-  }
+
+    .section-heading {
+        font-size: 35px;
+    }
+  };

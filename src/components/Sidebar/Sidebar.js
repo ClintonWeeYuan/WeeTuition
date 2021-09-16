@@ -6,9 +6,10 @@ import {RiLayoutRightFill} from 'react-icons/ri';
 import {FaTimes} from 'react-icons/fa';
 import SubMenu from './SubMenu';
 
-function Sidebar() {
+function Sidebar(props) {
 
     const [sidebar, setSidebar] = useState(false);
+    
     
     const toggleSidebar = () => setSidebar(!sidebar);
 
@@ -20,7 +21,7 @@ function Sidebar() {
 
             <div className= {sidebar ? 'sidebar-nav-active' : 'sidebar-nav'}>
                 {SidebarData.map((item, index) => {
-                    return <SubMenu item={item} key={index} />
+                    return <SubMenu handleClick={props.handleClick} item={item} key={index} />
                 })};
             </div>
 

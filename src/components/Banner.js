@@ -12,7 +12,7 @@ function Banner(props) {
                 <Row>
                     
                     <div className='banner-section'>
-                        <Col className='banner-words'>
+                        <div className='banner-words'>
                             <div className='banner-heading'>
                             {props.heading}
                             </div>
@@ -22,10 +22,10 @@ function Banner(props) {
                             </div>
 
                             <Button linkName='/'>GET STARTED</Button>
-                        </Col> 
+                        </div> 
 
-                    
-                        <img className='banner-image' src={props.image}/>
+                        <div className='empty-div'>
+                        </div>
                     </div>
                 </Row>  
             </Container>

@@ -1,3 +1,8 @@
+
+
+
+
+
 .banner-container {
     width: 100%;
     height: 400px;
@@ -5,7 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2d3142;
+    background-color: whitesmoke;
+    background-image: url('../images/writing.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .banner-section {
@@ -14,16 +23,18 @@
     justify-content: space-around;
 }
 
-.banner-image {
-    width: 35vw;
-    max-width: 45%;
-    height: auto;
-}
 
 .banner-words {
     color: white;
     padding: 8px 16px;
     font-family: 'Oxygen', sans-serif;
+    width: 40%;
+    border-radius: 20px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+.empty-div {
+    width: 40%;
 }
 
 .banner-heading {
@@ -31,4 +42,33 @@
     font-weight: bold;
 
     font-family: 'Viga', sans-serif;
+}
+
+/*Phone Settings */
+@media only screen and (max-width: 768px) {
+
+
+    .banner-heading{
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .empty-div {
+        display: none;
+    }
+    
+    .banner-words{
+        border: 1px solid white;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.8);
+    
+    }
+
+    .banner-caption {
+        text-align: center;
+    }
 }

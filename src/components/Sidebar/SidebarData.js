@@ -2,14 +2,6 @@ import React from 'react'
 import * as RiIcons from 'react-icons/ri'
 
 export const SidebarData = [
-    {
-        title: 'Overview',
-        route: 'overview',
-        path: '/overview',
-        iconClosed: <RiIcons.RiArrowDownSFill />,
-        iconOpened: <RiIcons.RiArrowUpSFill />
-
-    },
 
     {
         title: '1: Functions',
@@ -21,19 +13,24 @@ export const SidebarData = [
             {
                 title: 'Into to Functions',
                 page: 'CH1S1',
-                path: '/ch1/s1'
+                exercise: 'https://drive.google.com/file/d/1Bmb1ycBGUzxltL8_-WnwTIPYVKI1uDyV/preview',
+                pastyear:'',
+                ytube: 'https://www.youtube.com/watch?v=cWtnFKFiB_0'
+
             },
 
             {
                 title: 'Composite Functions',
                 page: 'CH1S2',
-                path: '/ch1/s2'
+                gdrive: 'https://drive.google.com/file/d/1H-R7ee1onQv0bwQ0TGaKdLNhwxQm23oA/preview',
+                ytube: 'https://www.youtube.com/watch?v=QJO3ROT-A4E'
             },
 
             {
                 title: 'Inverse Functions',
                 page: 'CH1S3',
-                path: '/ch1/s3'
+                gdrive: 'https://drive.google.com/file/d/1eavhs6CKxZxGrZGEN03_7Q3hGGFRgjmI/preview',
+                ytube: 'https://www.youtube.com/watch?v=mcu3Pp6ZASM',
             }
         ]
     },

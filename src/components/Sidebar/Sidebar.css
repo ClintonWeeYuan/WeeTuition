@@ -2,7 +2,7 @@
     position: fixed;
     top: 150px;
     display: inline-block;
-    width: 30%;
+    width: 400px;
     float: left;
     z-index: 9;
 
@@ -13,7 +13,7 @@
 
 .sidebar-toggle {
     cursor: pointer;
-    width: 50%;
+    width: 100px;
     height: 70px;
     background-color: #FFDF66;
     /*background-color: #e1c65a;*/
@@ -22,6 +22,7 @@
     justify-content: center;
     transition: all 0.5s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-top-right-radius: 15px;
 }
 
 .sidebar-toggle-active {
@@ -35,13 +36,14 @@
     margin: 0;
     transition: all 0.5s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-top-right-radius: 15px;
 }
 
 .sidebar-nav {
     cursor: pointer;
     width: 100%;
+    height: 65vh;
     transform: translateX(-100%);
-    height: 100vh;
     background-color: #FFDF66;
     display: flex;
     flex-direction: column;
@@ -49,13 +51,14 @@
     justify-content: flex-start;
     transition: transform 0.5s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    
+    border-bottom-right-radius: 15px;
+    overflow-y: auto;
 }
 
 .sidebar-nav-active {
     cursor: pointer;
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     background-color: #FFDF66;
@@ -68,9 +71,15 @@
     transition: transform 0.5s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     overflow-y: auto;
+    border-bottom-right-radius: 15px;
+
 }
 
 .sidebar-nav-active::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebar-nav::-webkit-scrollbar {
     display: none;
   }
   
@@ -79,3 +88,34 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  .sidebar-nav{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sidebar-container {
+      position: fixed;
+      top: 20vh;
+      display: inline-block;
+      width: 100%;
+      height: 70vh;
+      float: left;
+      z-index: 9;
+  
+  }
+
+    .sidebar-toggle {
+      width: 70px;     
+  }
+
+  .sidebar-nav {
+    height: 400px;
+  }
+
+  .sidebar-nav-active {
+    height: 100%;
+  }
+
+}

@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import './VideoTutorial.css'
 import ReactPlayer from 'react-player';
 
-function VideoTutorial() {
+function VideoTutorial(props) {
     return (
         
             <div className='video-container'>
@@ -21,7 +21,7 @@ function VideoTutorial() {
                 <Row>
                     <div  className='video-content'>
                     <ReactPlayer
-                        url="https://www.youtube.com/watch?v=ju4jq4EKIL0"
+                        url={props.ytube}
                     />
                     </div>
                 </Row>
