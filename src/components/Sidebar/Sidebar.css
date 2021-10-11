@@ -8,6 +8,15 @@
 }
 
 
+.sidebar-container-active {
+  position: fixed;
+  top: 150px;
+  display: inline-block;
+  float: left;
+  z-index: 9;
+  width: 400px;
+}
+
 
 .sidebar-toggle {
     cursor: pointer;
