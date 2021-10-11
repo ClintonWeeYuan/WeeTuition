@@ -19,9 +19,9 @@ function VideoTutorial(props) {
                 </Row>
 
                 <Row>
-                    <div  className='video-content'>
-                    <ReactPlayer
-                        url={props.ytube}
+                    <div className='video-content'>
+                    <ReactPlayer 
+                        url={props.ytube} controls={true} light={true}
                     />
                     </div>
                 </Row>

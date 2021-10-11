@@ -29,7 +29,7 @@
 }
 
 .video-content {
-
+    max-width: 80vw;
 }
 
 @media only screen and (max-width: 768px) {

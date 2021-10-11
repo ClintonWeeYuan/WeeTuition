@@ -14,7 +14,7 @@ function Sidebar(props) {
     const toggleSidebar = () => setSidebar(!sidebar);
 
     return (
-        <div className='sidebar-container'>
+        <div className={sidebar ? 'sidebar-container-active' : 'sidebar-container'}>
             <div className= {sidebar ? 'sidebar-toggle-active' : 'sidebar-toggle'} onClick={toggleSidebar}>
                 {sidebar ? <FaTimes size={40}/> : <RiLayoutRightFill size={40}/>}
             </div>
