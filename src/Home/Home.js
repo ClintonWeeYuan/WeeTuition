@@ -11,7 +11,7 @@ import BannerOneImage from '../images/bannerOne.png';
 function Home() {
     return (
         <div>
-            <Banner image={BannerOneImage} heading='STUDY SMART' caption="LIVE LIKE YOU DON'T HAVE TOMORROW, LEARN LIKE YOU'LL LIVE FOREVER"/>
+            <Banner image={BannerOneImage} heading='Study Less' caption="LIVE LIKE YOU DON'T HAVE TOMORROW, LEARN LIKE YOU'LL LIVE FOREVER"/>
             <Section heading='OUR RESOURCES'>
                 <Card image={CardImageOne} heading='Video Tutorials' caption='Listen and learn from the comfort of your own home'/>
                 <Card image={CardImageTwo} heading='Practice Questions' caption='Cement your understanding with exercises, which come with the relevant workings'/>

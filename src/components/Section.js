@@ -19,7 +19,7 @@ function Section(props) {
 
             <Row>
                  
-                <div  className='section-columns'>
+                <div className='section-columns'>
                     <Col>{props.children[0]}</Col>
                     <Col>{props.children[1]}</Col>
                     <Col>{props.children[2]}</Col>
@@ -27,7 +27,7 @@ function Section(props) {
             </Row>
 
             <Row>
-                <Button>GET STARTED</Button>
+                <Button linkName='/mainclass'>GET STARTED</Button>
             </Row>
         </div>
     )

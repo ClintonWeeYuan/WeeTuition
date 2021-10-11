@@ -1,4 +1,4 @@
-.banner-container {
+.banner-container2 {
     width: 100%;
     height: 400px;
     box-shadow: inset 0 0 0 1;
@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    background-image: url('../images/writing.jpg');
+    background-image: url('../images/bannerThree.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */

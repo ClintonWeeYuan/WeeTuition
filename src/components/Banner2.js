@@ -1,12 +1,12 @@
 import React from 'react';
-import './Banner.css';
+import './Banner2.css';
 import Button from '../components/Button';
 import {Container, Row, Col} from 'react-bootstrap'
 
-function Banner(props) {
+function Banner2(props) {
     return (
 
-        <div className='banner-container'>
+        <div className='banner-container2'>
             
             <Container>
                 <Row>
@@ -36,4 +36,4 @@ function Banner(props) {
     )
 }
 
-export default Banner
+export default Banner2

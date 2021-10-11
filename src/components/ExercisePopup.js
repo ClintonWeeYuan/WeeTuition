@@ -10,7 +10,7 @@ function ExercisePopup(props) {
             </div>
             
             <div className='document-container'>
-            <iframe src={props.gdrive} width="640" height="800" allow="autoplay"></iframe>
+            <iframe className='document-iframe' src={props.exercise} width="640" height="800" allow="autoplay"></iframe>
             </div>
         </div>
     )

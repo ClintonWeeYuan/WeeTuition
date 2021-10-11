@@ -26,13 +26,13 @@ function MainClass() {
     }
 
     return (
-        <>
+        <div>
             <Sidebar handleClick={handleClick} />
             <div style={PageStyle}>
                 <VideoTutorial ytube={ytube}/>
                 <Exercise exercise={exercise}/>
-            </div>        
-        </>
+            </div>   
+        </div>
     )
 }
 

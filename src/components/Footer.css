@@ -1,10 +1,9 @@
 .footer-container {
-    background-color:  #2d3142;
+    background-color:  whitesmoke;
     padding: 20px 40px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
-
+    color: #2d3142;
 }
 
 .footer-heading {

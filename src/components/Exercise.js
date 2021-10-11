@@ -31,7 +31,7 @@ function Exercise(props) {
                     <Button onClick={openPopup} buttonSize='btn-large'>Exercises</Button>
                 </div>
             </Row>     
-            {popup && <ExercisePopup gdrive={props.exercise} onClick={openPopup}/>}   
+            {popup && <ExercisePopup exercise={props.exercise} onClick={openPopup}/>}   
 
             
         </div>

@@ -1,0 +1,28 @@
+.mission-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: yellow;
+}
+
+.mission-box{
+    padding: 20px;
+}
+.mission-heading {
+    font-size: 40px;
+    font-family:'Viga', sans-serif;
+    color: #2d3142;
+}
+
+.mission-divider {
+    width: 50px;
+    height: 4px;
+    background-color: #2d3142;
+    margin-bottom: 40px;
+}
+
+.mission-content{
+    font-size: 22px;
+    max-width: 90%;
+}

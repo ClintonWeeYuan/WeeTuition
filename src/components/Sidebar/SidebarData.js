@@ -11,9 +11,9 @@ export const SidebarData = [
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
-                title: 'Into to Functions',
+                title: 'Intro to Functions',
                 page: 'CH1S1',
-                exercise: 'https://drive.google.com/file/d/1Bmb1ycBGUzxltL8_-WnwTIPYVKI1uDyV/preview',
+                exercise: 'https://drive.google.com/file/d/1lZrto12B_Yuch1p73Fk-wsRU8FEQt7oO/preview',
                 pastyear:'',
                 ytube: 'https://www.youtube.com/watch?v=cWtnFKFiB_0'
 
@@ -22,14 +22,14 @@ export const SidebarData = [
             {
                 title: 'Composite Functions',
                 page: 'CH1S2',
-                gdrive: 'https://drive.google.com/file/d/1H-R7ee1onQv0bwQ0TGaKdLNhwxQm23oA/preview',
+                exercise: 'https://drive.google.com/file/d/1fcWbyyakRfysnBAWhy6ousbdBSO0FUz-/preview',
                 ytube: 'https://www.youtube.com/watch?v=QJO3ROT-A4E'
             },
 
             {
                 title: 'Inverse Functions',
                 page: 'CH1S3',
-                gdrive: 'https://drive.google.com/file/d/1eavhs6CKxZxGrZGEN03_7Q3hGGFRgjmI/preview',
+                exercise: 'https://drive.google.com/file/d/1iL6iGeUfXh94hqEZBP_-JrPQNlKBwABA/preview',
                 ytube: 'https://www.youtube.com/watch?v=mcu3Pp6ZASM',
             }
         ]
