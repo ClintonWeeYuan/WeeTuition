@@ -14,7 +14,7 @@ function VideoTutorial(props) {
 
                 <Row>
                     <div className='video-divider'>
-                    
+                        
                     </div>
                 </Row>
 

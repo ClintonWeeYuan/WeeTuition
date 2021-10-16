@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-
+import './Team.css';
 import Hazel from '../images/hazel.jpeg';
 import Clinton from '../images/clinton.jpg';
 
